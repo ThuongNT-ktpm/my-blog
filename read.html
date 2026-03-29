@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đọc Bài Viết | Tech Blog</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/read.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <a href="https://thuongnt-ktpm.github.io/portfoliothuong/" target="_blank" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            Cậu SE Trẻ
+        </a>
+        <nav class="header-links">
+            <a href="index.html">Trang chủ</a>
+
+        </nav>
+    </header>
+
+    <div class="layout-wrapper">
+        <main class="main-content">
+            <a href="index.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Quay lại Trang Chủ
+            </a>
+
+            <div id="markdown-viewer">
+                <div style="text-align: center; color: #888;">⏳ Đang tải nội dung bài viết...</div>
+            </div>
+
+            <!-- TÁC GIẢ  -->
+            <div class="author-box">
+                <img src="https://ui-avatars.com/api/?name=Thuong+NT&background=2563eb&color=fff&size=128" alt="Tác giả"
+                    class="author-avatar">
+                <div class="author-info">
+                    <h4>Về Tác Giả: Thương NT</h4>
+                    <p>Software Engineering student đam mê công nghệ. luôn nỗ lực phát triển bản thân và
+                        mong muốn tạo giá trị thông qua việc chia sẻ kiến thức và lan tỏa tinh thần tích cực.</p>
+                    <div class="social-links">
+                        <a href="https://thuongnt-ktpm.github.io/portfoliothuong/" target="_blank">Portfolio</a>
+                        <a href="https://github.com/thuongnt-ktpm" target="_blank">GitHub</a>
+                        <a href="https://www.facebook.com/tien.thuong.674774" target="_blank">Facebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BÀI VIẾT LIÊN QUAN -->
+            <div class="related-posts-section">
+                <h3>Các bài viết liên quan</h3>
+                <div class="related-grid">
+                    <!-- Thẻ bài viết 1 -->
+                    <a href="read.html?post=phong-van-mysql" class="related-card">
+                        <h4>Top 20 câu hỏi MySQL</h4>
+                        <p>Chuẩn bị kỹ lưỡng cho buổi phỏng vấn Database của bạn với các kiến thức về Index,
+                            Transaction.</p>
+                    </a>
+
+                    <!-- Thẻ bài viết 2 -->
+                    <a href="read.html?post=bai-1-clean-code" class="related-card">
+                        <h4>Cách viết Clean Code trong Java</h4>
+                        <p>Tổng hợp các quy tắc đặt tên, chia hàm giúp code của bạn chuyên nghiệp và dễ đọc hơn.</p>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Nguyễn Tiến Thương - Thanks for reading!</p>
+    </footer>
+    <script src="assets/js/read.js"></script>
+</body>
+
+</html>
