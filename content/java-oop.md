@@ -1,3 +1,7 @@
+---
+date: "2026-03-29"
+---
+
 # OOP là gì trong Java? Giải ngố 4 Tính chất qua Ví dụ Thực tế
 
 Lập trình hướng đối tượng (Object-Oriented Programming - OOP) không chỉ là một khái niệm khô khan trên giảng đường. Nó là "tôn chỉ" giúp mã nguồn (code) của chúng ta gần gũi với thế giới thực, dễ quản lý, bảo trì và mở rộng. Trong Java, OOP là hơi thở, là nền tảng cốt lõi của mọi ứng dụng. 

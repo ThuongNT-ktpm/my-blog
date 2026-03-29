@@ -39,6 +39,29 @@
     font-size: 1.05rem;
 }
 
+/* ================= POST METADATA ================= */
+.post-publish-date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    font-style: italic;
+    border-bottom: 1px dashed var(--border-color, #e2e8f0);
+    padding-bottom: 15px;
+}
+
+.post-publish-date svg {
+    color: var(--primary, #3b82f6);
+}
+
+.post-publish-date strong {
+    color: #334155;
+    font-weight: 600;
+}
+
 #markdown-viewer h1 {
     color: #0f172a;
     margin-top: 0;
@@ -75,6 +98,49 @@
     border-radius: 0 8px 8px 0;
     margin: 1.5em 0;
     font-style: italic;
+}
+
+/* ================= TABLE ================= */
+#markdown-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    font-size: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+#markdown-viewer table thead {
+    background-color: var(--primary, #3b82f6);
+    color: #ffffff;
+}
+
+#markdown-viewer th,
+#markdown-viewer td {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color, #e2e8f0);
+    text-align: left;
+}
+
+#markdown-viewer th {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1.05rem;
+}
+
+#markdown-viewer tbody tr {
+    transition: all 0.3s ease;
+}
+
+#markdown-viewer tbody tr:last-of-type td {
+    border-bottom: 2px solid var(--primary, #3b82f6);
+}
+
+#markdown-viewer tbody tr:hover {
+    background-color: #eff6ff;
+    box-shadow: inset 4px 0 0 var(--primary, #3b82f6);
 }
 
 /* ================= AUTHOR BOX ================= */

@@ -1,3 +1,7 @@
+---
+date: "2026-03-25"
+---
+
 # @RestController là gì? Hiểu rõ Controller trong Spring Boot
 
 Trong quá trình làm việc với Spring Boot để xây dựng các RESTful API, chắc chắn bạn sẽ bắt gặp annotation `@RestController`. Vậy nó hoạt động như thế nào?

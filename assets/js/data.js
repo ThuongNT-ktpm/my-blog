@@ -19,5 +19,12 @@ const posts = [
         description: "Chuẩn bị kỹ lưỡng cho buổi phỏng vấn của bạn với các kiến thức thường gặp về Index, Transaction và Query Optimization.",
         tags: ["MySQL", "Database"],
         filename: "phong-van-mysql"
+    },
+    {
+        title: "StringBuilder, StringBuffer và BigInteger trong Java",
+        date: "30/03/2026",
+        description: "Phân tích chuyên sâu về StringBuilder, StringBuffer và BigInteger trong Java. Từ khái niệm cơ bản đến các ví dụ ứng dụng trong thực tế.",
+        tags: ["Java", "Core Java", "StringBuilder", "StringBuffer", "BigInteger", "Thực tế"],
+        filename: "java-string-biginteger"
     }
 ];
