@@ -26,5 +26,12 @@ const posts = [
         description: "Phân tích chuyên sâu về StringBuilder, StringBuffer và BigInteger trong Java. Từ khái niệm cơ bản đến các ví dụ ứng dụng trong thực tế.",
         tags: ["Java", "Core Java", "StringBuilder", "StringBuffer", "BigInteger", "Thực tế"],
         filename: "java-string-biginteger"
+    },
+    {
+        title: "Làm Chủ Kiến Trúc MVC: Bí Quyết Chia Nhỏ Để Trị Trong Lập Trình",
+        date: "31/03/2026",
+        description: "Bài viết giúp bạn hiểu rõ về mô hình MVC (Model-View-Controller) với bố cục mở bài, thân bài và kết bài chi tiết theo phong cách thực chiến.",
+        tags: ["Java", "Core Java", "MVC", "Model", "View", "Controller", "Thực tế"],
+        filename: "mo-hinh-MVC"
     }
 ];

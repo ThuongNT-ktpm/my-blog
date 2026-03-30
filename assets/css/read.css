@@ -100,6 +100,15 @@
     font-style: italic;
 }
 
+#markdown-viewer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
 /* ================= TABLE ================= */
 #markdown-viewer table {
     width: 100%;
