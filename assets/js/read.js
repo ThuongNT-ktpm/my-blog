@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         let rawDate = dateMatch[1];
                         // Nếu date dạng YYYY-MM-DD thì chuyển qua DD/MM/YYYY
                         if (rawDate.includes("-")) {
-                             const parts = rawDate.split("-");
-                             if (parts.length === 3) dateStr = `${parts[2]}/${parts[1]}/${parts[0]}`;
-                             else dateStr = rawDate;
+                            const parts = rawDate.split("-");
+                            if (parts.length === 3) dateStr = `${parts[2]}/${parts[1]}/${parts[0]}`;
+                            else dateStr = rawDate;
                         } else {
-                             dateStr = rawDate;
+                            dateStr = rawDate;
                         }
                     }
                     markdownText = markdownText.replace(frontmatterRegex, '');
