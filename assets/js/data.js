@@ -33,5 +33,40 @@ const posts = [
         description: "Bài viết giúp bạn hiểu rõ về mô hình MVC (Model-View-Controller) với bố cục mở bài, thân bài và kết bài chi tiết theo phong cách thực chiến.",
         tags: ["Java", "Core Java", "MVC", "Model", "View", "Controller", "Thực tế"],
         filename: "mo-hinh-MVC"
+    },
+    {
+        title: "Mô Hình Thác Nước (Waterfall Model)",
+        date: "13/04/2026",
+        description: "Bài viết giúp bạn hiểu rõ về mô hình Waterfall",
+        tags: ["Java", "Core Java", "Waterfall", "Thực tế"],
+        filename: "mo-hinh-thac-nuoc"
+    },
+    {
+        title: "Mô Hình Agile (Agile Model)",
+        date: "13/04/2026",
+        description: "Bài viết giúp bạn hiểu rõ về mô hình Agile",
+        tags: ["Java", "Core Java", "Agile", "Thực tế"],
+        filename: "mo-hinh-agile"
+    },
+    {
+        title: "Mô Hình Spiral (Spiral Model)",
+        date: "14/04/2026",
+        description: "Bài viết giúp bạn hiểu rõ về mô hình Spiral",
+        tags: ["Java", "Core Java", "Spiral", "Thực tế"],
+        filename: "mo-hinh-spiral"
+    },
+    {
+        title: "Câu 1,2,3 SWE202c",
+        date: "15/04/2026",
+        description: "Cách làm để thi tốt câu 1,2,3 SWE202c",
+        tags: ["SWE202c"],
+        filename: "cau123-SWE202c"
+    },
+    {
+        title: "Mô Hình Scrum (Scrum Framework)",
+        date: "15/04/2026",
+        description: "Bài viết giúp bạn hiểu rõ về mô hình Scrum",
+        tags: ["Scrum", "Thực tế"],
+        filename: "mo-hinh-scrum"
     }
 ];
